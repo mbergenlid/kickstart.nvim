@@ -139,6 +139,7 @@ vim.keymap.set('n', '<C-n>', '<Cmd>cnext<CR>')
 vim.keymap.set('n', '<C-p>', '<Cmd>cprev<CR>')
 
 vim.keymap.set('n', '<leader>d', '<Cmd>Gitsigns preview_hunk<CR>', { desc = 'Show current git hunk diff' })
+vim.keymap.set('n', '<leader>g', '<Cmd>Gitsigns<CR>', { desc = 'Open Gitsigns actions' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
